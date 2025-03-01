@@ -71,7 +71,7 @@ Catatan: Script akan menginstall modul yang diperlukan secara otomatis jika belu
 pip install Crypto --break-system-packages
 ```
 
-# kalau error coba gunakan dengan ini
+` udah di install tapi masih error? kalau masih error coba gunakan dengan ini`
 
 ```
 pip uninstall Crypto -y
@@ -171,7 +171,7 @@ Opsi:
 </head>
 <body>
   <div class="image-container">
-    <img src="https://f.top4top.io/p_3329uuu3s1.jpg" alt="Displayed Image">
+    <img src="https://www.top4top.me/dXlyKGHVWugb18D/preview" alt="Displayed Image">
   </div>
 </body>
 </html>
@@ -188,7 +188,7 @@ Opsi:
 </head>
 <body>
   <div class="image-container">
-    <img src="https://f.top4top.io/p_3329uuu3s1.jpg" alt="Displayed Image">
+    <img src="https://www.top4top.me/8thgz3EqG9HGyOP/preview" alt="Displayed Image">
   </div>
 </body>
 </html>
