@@ -163,35 +163,19 @@ Opsi:
 
 `ScrinsHoot Termux`
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+
   <div class="image-container">
     <img src="https://www.top4top.me/dXlyKGHVWugb18D/preview" alt="Displayed Image">
   </div>
-</body>
-</html>
 
 ---
 
 `Scrinshoot Kali linux(nethunter)`
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+
   <div class="image-container">
     <img src="https://www.top4top.me/8thgz3EqG9HGyOP/preview" alt="Displayed Image">
   </div>
-</body>
-</html>
 
 ---
 
