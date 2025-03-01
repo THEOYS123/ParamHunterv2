@@ -53,22 +53,24 @@ ParamHunterv2 dirancang agar bisa dijalankan di berbagai platform, termasuk Kali
 
 1. Update Sistem & Install Python 3 dan pip:
 Pastikan sistem kamu dalam keadaan up-to-date dan sudah terpasang Python 3 serta pip.
-
+```
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip -y
-
+```
 
 2. Clone Repository:
 Clone proyek ParamHunterv2 dari GitHub:
-
+```
 git clone https://github.com/THEOYS123/ParamHunterv2.git
 cd ParamHunterv2
-
+```
 
 3. Install Dependencies:
 Install semua dependency yang dibutuhkan dengan perintah:
 
+```
 pip3 install -r requirements.txt
+```
 
 Catatan: Script akan menginstall modul yang diperlukan secara otomatis jika belum terpasang.
 
@@ -76,7 +78,9 @@ Catatan: Script akan menginstall modul yang diperlukan secara otomatis jika belu
 4. Jalankan Script:
 Contoh menjalankan script dengan filter kustom:
 
-python3 ParamHunterv2.py https://targetwebsite.com -f .php ?id=
+```
+python3 ParamHunterv2.py https://smktjp.sch.id -f .php ?id=
+```
 
 
 
@@ -93,13 +97,17 @@ Download Termux dari Play Store atau F-Droid.
 Buka Termux dan jalankan:
 
 pkg update && pkg upgrade -y
-```pkg install python git -y```
+```
+pkg install python git -y
+```
 
 
 3. Setup Storage (Opsional):
 Jika ingin menyimpan file output ke penyimpanan perangkat, jalankan:
 
-```termux-setup-storage```
+```
+termux-setup-storage
+```
 
 
 4. Clone Repository:
@@ -113,13 +121,17 @@ cd ParamHunterv2
 5. Install Dependencies:
 Install semua dependency yang diperlukan:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 6. Jalankan Script:
 Contoh menjalankan script:
 
-```python ParamHunterv2.py https://smktjp.sch.id -full```
+```
+python ParamHunterv2.py https://smktjp.sch.id -full
+```
 
 
 
