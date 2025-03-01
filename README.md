@@ -1,6 +1,6 @@
 *ParamHunterv2*
 
-`Awal Puasa nih gw udah update script ParamHunter nya tinggal di pake kaga usah nge bac** lagi dah su, oke deh silahkan di baca kalo mau kalo kaga ydh.`
+`Awal Puasa nih gw udah update script ParamHunter nya tinggal di pake kaga usah nge bac** lagi dah su, oke deh silahkan di baca kalo mau kalo kaga ydh.🥰🗿`
 
 ---
 
