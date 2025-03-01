@@ -160,28 +160,6 @@ Demo
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Display Image</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #f0f0f0;
-      min-height: 100vh;
-      margin: 0;
-    }
-    .image-container {
-      border: 5px solid #3498db;
-      padding: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      background-color: #fff;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-  </style>
 </head>
 <body>
   <div class="image-container">
