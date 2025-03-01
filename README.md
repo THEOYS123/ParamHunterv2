@@ -65,16 +65,24 @@ pip3 install -r requirements.txt
 
 Catatan: Script akan menginstall modul yang diperlukan secara otomatis jika belum terpasang.
 
+4. Install module terakhir (ini untuk module hasil encrypt saja ya jadi aman lah)
 
-4. Jalankan Script:
+```
+pip install Crypto --break-system-packages
+```
+
+# kalau error coba gunakan dengan ini
+
+```
+pip uninstall Crypto -y
+pip install pycryptodome --break-system-packages
+```
+5. Jalankan Script:
 Contoh menjalankan script dengan filter kustom:
 
 ```
 python3 ParamHunterv2.py https://smktjp.sch.id -f .php ?id=
 ```
-
-
-
 
 ---
 
@@ -86,9 +94,8 @@ Download Termux dari Play Store atau F-Droid.
 
 2. Update Paket & Install Python serta Git:
 Buka Termux dan jalankan:
-
-pkg update && pkg upgrade -y
 ```
+pkg update && pkg upgrade -y
 pkg install python git -y
 ```
 
@@ -121,10 +128,8 @@ pip install -r requirements.txt
 Contoh menjalankan script:
 
 ```
-python ParamHunterv2.py https://smktjp.sch.id -full
+python param.py https://smktjp.sch.id -full
 ```
-
-
 
 
 ---
