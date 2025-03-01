@@ -1,15 +1,6 @@
-Berikut adalah teks README.md yang keren dan jelas untuk proyek ParamHunterv2:
+*ParamHunterv2*
 
-
----
-
-ParamHunterv2
-
-Next-level Deep Crawling & Advanced WAF Bypass Tool 🚀🔥
-
-
-(Opsional: Ganti dengan banner project kamu jika ada)
-
+`Awal Puasa nih gw udah update script ParamHunter nya tinggal di pake kaga usah nge bac** lagi dah su, oke deh silahkan di baca kalo mau kalo kaga ydh.`
 
 ---
 
@@ -142,7 +133,9 @@ Usage
 
 `Jalankan script dengan perintah berikut:`
 
-python ParamHunterv2.py https://example.com](https://smktjp.sch.id -f .php .html ?id= -pr --threads 10
+```
+python ParamHunterv2.py https://smktjp.sch.id -f .php .html ?id= -pr --threads 10
+```
 
 Opsi:
 
@@ -161,8 +154,6 @@ Opsi:
 
 
 ---
-
-Demo
 
 
 `Scrinshoot`
@@ -185,7 +176,7 @@ Demo
 Contributing
 
 Contributions sangat diterima! Jangan ragu untuk membuat issue atau pull request jika ada saran perbaikan atau fitur baru.
-Let's make this tool even more powerful together! 💪
+Let's make this tool even more powerful together! 🗿💪
 
 
 ---
