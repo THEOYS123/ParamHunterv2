@@ -156,7 +156,24 @@ Opsi:
 ---
 
 
-`Scrinshoot`
+`ScrinsHoot Termux`
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="image-container">
+    <img src="https://f.top4top.io/p_3329uuu3s1.jpg" alt="Displayed Image">
+  </div>
+</body>
+</html>
+
+---
+
+`Scrinshoot Kali linux(nethunter)`
 
 <!DOCTYPE html>
 <html lang="en">
