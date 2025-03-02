@@ -189,7 +189,7 @@ Opsi:
 </head>
 <body>
   <div class="image-container">
-    <img src="https://k.top4top.io/p_33470p5j22.jpg" alt="Displayed Image">
+    <img src="https://d.top4top.io/p_3347ydk6d1.jpg" alt="Displayed Image">
   </div>
 </body>
 </html>
