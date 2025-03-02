@@ -33,6 +33,13 @@ Modern UI: Tampilan interaktif dan stylish menggunakan modul Rich 🎨
 Graceful Exit: Handling Ctrl+C yang memastikan semua thread berhenti dengan baik dan hasil disimpan rapi 🚦
 
 
+---
+
+
+# cara untuk mengatasi signal 9 untuk perangkat Android versi 12 + 
+
+`Setting - Opsi developer - Aplikasi - nonaktifkan batasan proses turunan`
+
 
 ---
 
@@ -172,7 +179,7 @@ Opsi:
 </head>
 <body>
   <div class="image-container">
-    <img src="https://i.top4top.io/p_33478h1vp1.jpg" alt="Displayed Image">
+    <img src="https://c.top4top.io/p_3348atv4q1.jpg" alt="Displayed Image">
   </div>
 </body>
 </html>
