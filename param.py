@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #yang nyopet script semoga yatim kalo udah semoga orang nya aja gpp 🥰
-#yabg mau script nya di encrypt seperti ini chat pribadi saja
+#yang mau script nya di encrypt seperti ini chat pribadi saja
 
 import os, sys, base64
 from Crypto.Protocol.KDF import PBKDF2
