@@ -1,0 +1,200 @@
+sql syntax
+sql error
+mysql_fetch
+ora-01756
+unclosed quotation mark
+quoted string not properly terminated
+you have an error in your sql syntax
+warning: mysql
+mysql_num_rows()
+mysql_fetch_array()
+mysqli_fetch
+ODBC SQL Server Driver
+Microsoft OLE DB Provider for SQL Server
+SQLite3::SQLException
+ORA-
+Warning: pg_
+<script>alert(1)</script>
+xss detected
+unexpected token <
+invalid tag
+doctype html
+syntax error
+unterminated string literal
+fatal error
+error executing query
+database error
+com.mysql.jdbc.exceptions
+native client
+sqlstate
+odbc sql
+Invalid object name
+Incorrect syntax near
+Microsoft ODBC Driver
+SQL Server Native Client
+Driver does not support this function
+Incorrect syntax
+Type mismatch
+division by zero
+Arithmetic overflow
+Subquery returns more than 1 value
+Column count doesn't match
+Unknown column
+MySQL server version for the right syntax
+check the manual
+XPATH syntax error
+DOMException
+XML parsing error
+Error: Unclosed token
+Invalid XML
+Document is empty
+Warning: preg_replace
+Compilation failed
+Warning: include
+failed to open stream
+Call to undefined function
+Stack trace:
+Fatal error:
+Warning: file_get_contents
+File not found
+No such file or directory
+Permission denied
+access denied
+Unauthorized
+Not allowed
+Forbidden
+Error 403
+Error 404
+Error 500
+Internal Server Error
+Service Unavailable
+Bad Gateway
+Gateway Timeout
+SSL certificate error
+TLS handshake failed
+Connection refused
+Connection timed out
+Could not connect to server
+Protocol error
+Buffer overflow
+Segmentation fault
+Stack smashing detected
+Core dumped
+Invalid memory reference
+memory access violation
+Aborted
+terminated unexpectedly
+unexpected error
+Invalid input
+Input string was not in a correct format
+NullReferenceException
+IndexOutOfRangeException
+System.Exception
+Unhandled exception
+Error: 0x80004005
+HRESULT
+Win32 exception
+System.ArgumentException
+System.InvalidOperationException
+Error loading DLL
+DLL not found
+could not be loaded
+SQL query failed
+Database query error
+MySQL Query Error
+PostgreSQL error
+syntax error at or near
+ERROR: relation
+ERROR: column
+ERROR: operator does not exist
+SQLSTATE
+No results
+invalid character
+illegal character
+unexpected end of file
+unexpected end of input
+Unexpected token
+Unexpected symbol
+Invalid expression
+parse error
+unable to parse
+Conversion failed
+cannot convert
+type mismatch
+failed conversion
+incorrect data type
+Data truncated
+overflow
+underflow
+division by zero
+modulo by zero
+runtime error
+fatal exception
+SQL injection
+XSS vulnerability
+Command injection
+LDAP injection
+XML injection
+Remote Code Execution
+Injection attack
+Security exception
+Cross-Site Request Forgery
+CSRF
+Directory traversal
+Path traversal
+File inclusion
+Local file inclusion
+Remote file inclusion
+Improper input validation
+Parameter tampering
+Malformed request
+Bad request
+Invalid URL
+URL parsing error
+Cookie parsing error
+Session expired
+Invalid session
+Authentication failed
+Authorization failed
+Access violation
+Privilege escalation
+Buffer underflow
+Invalid pointer
+Corrupted data
+Data integrity error
+Checksum mismatch
+CRC error
+Timeout expired
+Operation timed out
+Resource temporarily unavailable
+Too many connections
+Too many requests
+Rate limit exceeded
+Request forbidden
+HTTP/1.1 403 Forbidden
+HTTP/1.1 404 Not Found
+HTTP/1.1 500 Internal Server Error
+Internal error
+Server error
+Invalid configuration
+Configuration error
+Environment error
+Missing parameter
+Parameter missing
+Missing argument
+Invalid argument
+Argument exception
+Command not found
+Not implemented
+Function not implemented
+Method not allowed
+Unsupported protocol
+Invalid protocol
+SSL handshake failed
+TLS error
+Certificate verify failed
+Cipher mismatch
+Insecure connection
+Remote host closed connection
+Connection reset by peer
+Broken pipe
