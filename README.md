@@ -141,6 +141,21 @@ python param.py https://smktjp.sch.id -full
 
 ---
 
+cara memperbaiki gagal/error saat menginstall module Crypto (termux) 
+
+Coba uninstall dulu paket yang salah:
+```
+pip uninstall Crypto
+pip uninstall Naked
+pip uninstall shellescape
+```
+Lalu install pycryptodome yang benar:
+```
+pip install pycryptodome
+```
+
+---
+
 Usage
 
 `Jalankan script dengan perintah berikut:`
